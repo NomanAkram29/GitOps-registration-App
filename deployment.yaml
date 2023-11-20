@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: nomana29/registeration-app:1.0.0-26
+          image: nomana29/registeration-app:1.0.0-29
           resources:
             limits:
               memory: "256Mi"
