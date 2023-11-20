@@ -36,7 +36,7 @@ pipeline {
                    git commit -m "Updated Deployment Manifest"
                 """
                 withCredentials([gitUsernamePassword(credentialsId: 'GitHub', gitToolName: 'Default')]) {
-                  sh "git push https://Token_for_ArgoCD@github.com/NomanAkram29/GitOps-registration-App.git main"
+                  sh "git push origin main"
                 }
             }
         }
